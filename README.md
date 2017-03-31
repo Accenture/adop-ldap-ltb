@@ -30,8 +30,18 @@ Runtime configuration can be provided using environment variables:
 * LDAP_LTB_DN, the LDAP admin DN
 * LDAP_LTB_PWD, the password to use connecting to LDAP service
 
+Note : Default password policies is setup with following rules -
+
+* Minimum length: 8
+* Maximum length: 16
+* Minimum number of lowercase characters: 1
+* Minimum number of uppercase characters: 1
+* Minimum number of digits: 1
+* Minimum number of special characters: 1
+* Your new password can not be the same as your old password
+
 # License
-Please view [licence information](LICENCE.md) for the software contained on this image.
+ Please view [licence information](LICENCE.md) for the software contained on this image.
 
 #Supported Docker versions
 
