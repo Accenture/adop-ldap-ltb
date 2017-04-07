@@ -64,17 +64,17 @@ $hash = "clear";
 # Local password policy
 # This is applied before directory password policy
 # Minimal length
-$pwd_min_length = 0;
+$pwd_min_length = 9;
 # Maximal length
 $pwd_max_length = 0;
 # Minimal lower characters
-$pwd_min_lower = 0;
+$pwd_min_lower = 6;
 # Minimal upper characters
-$pwd_min_upper = 0;
+$pwd_min_upper = 1;
 # Minimal digit characters
-$pwd_min_digit = 0;
+$pwd_min_digit = 1;
 # Minimal special characters
-$pwd_min_special = 0;
+$pwd_min_special = 1;
 # Definition of special characters
 $pwd_special_chars = "^a-zA-Z0-9";
 # Forbidden characters
@@ -87,7 +87,7 @@ $pwd_complexity = 0;
 # always
 # never
 # onerror
-$pwd_show_policy = "never";
+$pwd_show_policy = "onerror";
 # Position of password policy constraints message:
 # above - the form
 # below - the form
