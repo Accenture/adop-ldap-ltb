@@ -64,11 +64,11 @@ $hash = "clear";
 # Local password policy
 # This is applied before directory password policy
 # Minimal length
-$pwd_min_length = 8;
+$pwd_min_length = 9;
 # Maximal length
-$pwd_max_length = 16;
+$pwd_max_length = 0;
 # Minimal lower characters
-$pwd_min_lower = 1;
+$pwd_min_lower = 6;
 # Minimal upper characters
 $pwd_min_upper = 1;
 # Minimal digit characters

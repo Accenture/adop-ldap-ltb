@@ -32,8 +32,8 @@ Runtime configuration can be provided using environment variables:
 
 Note : Default password policies is setup with following rules -
 
-* Minimum length: 8
-* Maximum length: 16
+* Minimum length: 9
+* Maximum length: no limit
 * Minimum number of lowercase characters: 1
 * Minimum number of uppercase characters: 1
 * Minimum number of digits: 1
