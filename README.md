@@ -15,7 +15,7 @@ The easiest for to run ldap-ltb image is as follow:
         -e LDAP_LTB_URL="<your-ldap-url>" \
         -e LDAP_LTB_PWD="<your-ldap-admin-password>" \
         --net=<your-network-name> \
-        adop/ldap-ltb:VERSION
+        accenture/adop-ldap-ltb:VERSION
 ```
 after the above ldap-ltb will be available at: http://ldap-ltb
         
