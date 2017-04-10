@@ -1,6 +1,6 @@
 #Supported tags and respective Dockerfile links
 
-- [`0.1.0`, `0.1.0` (*0.1.0/Dockerfile*)](https://github.com/Accenture/ldap-ltb/blob/master/Dockerfile)
+- [`0.1.0`, `0.1.0` (*0.1.0/Dockerfile*)](https://github.com/Accenture/adop-ldap-ltb/blob/master/Dockerfile)
 
 # What is ldap-ltb?
 
