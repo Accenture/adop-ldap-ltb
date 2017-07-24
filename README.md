@@ -29,6 +29,9 @@ Runtime configuration can be provided using environment variables:
 * LDAP_LTB_BS, the LDAP user BASE_DN
 * LDAP_LTB_DN, the LDAP admin DN
 * LDAP_LTB_PWD, the password to use connecting to LDAP service
+* LDAP_LTB_RECAPTCHA, use [Googles reCAPTCHA](https://www.google.com/recaptcha) (0 or 1, default: 0)
+* LDAP_LTB_RECAPTCHA_PUBKEY, your reCAPTCHA public key
+* LDAP_LTB_RECAPTCHA_PRIVKEY, your reCAPTCHA private key
 
 Note : Default password policies is setup with following rules -
 

@@ -174,9 +174,9 @@ $login_forbidden_chars = "*()&|";
 ## CAPTCHA
 # Use Google reCAPTCHA (http://www.google.com/recaptcha)
 # Go on the site to get public and private key
-$use_recaptcha = false;
-$recaptcha_publickey = "";
-$recaptcha_privatekey = "";
+$use_recaptcha = getenv('LDAP_LTB_RECAPTCHA');
+$recaptcha_publickey = getenv('LDAP_LTB_RECAPTCHA_PUBKEY');
+$recaptcha_privatekey = getenv('LDAP_LTB_RECAPTCHA_PRIVKEY');
 # Customize theme (see http://code.google.com/intl/de-DE/apis/recaptcha/docs/customization.html)
 # Examples: red, white, blackglass, clean
 $recaptcha_theme = "white";

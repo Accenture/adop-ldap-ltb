@@ -8,6 +8,7 @@ ENV LDAP_LTB_URL "ldap://ldap:389"
 ENV LDAP_LTB_DN "cn=admin,dc=ldap,dc=example,dc=com"
 ENV LDAP_LTB_PWD "changeme"
 ENV LDAP_LTB_BS "dc=ldap,dc=example,dc=com"
+ENV LDAP_LTB_RECAPTCHA 0
 
 # Install Apache2, PHP and LTB ssp
 RUN apt-get update && apt-get install -y apache2 php5 php5-mcrypt php5-ldap curl && apt-get clean
