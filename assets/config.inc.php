@@ -181,7 +181,7 @@ $recaptcha_privatekey = getenv('LDAP_LTB_RECAPTCHA_PRIVKEY');
 # Examples: red, white, blackglass, clean
 $recaptcha_theme = "white";
 # Force HTTPS for recaptcha HTML code
-$recaptcha_ssl = false;
+$recaptcha_ssl = true;
 
 ## Default action
 # change
